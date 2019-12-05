@@ -16,7 +16,7 @@ hs 'mvn package deploy -DmuleDeploy'
 
 stage('Perform Regression Testing'){
 steps{
-hs 'newman run //home//mustafa//Music//newmen//World-time-Zone.postman_collection.json'
+hs 'newman run /home/mustafa/Music/newmen/World-time-Zone.postman_collection.json'
 }
 }
 
